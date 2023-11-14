@@ -1,9 +1,6 @@
 package ConceptosBasicos;
 
-import org.w3c.dom.ls.LSOutput;
-
 import java.util.Scanner;
-
 public class Ejercicio3 {
 
     public static void main(String[] args) {

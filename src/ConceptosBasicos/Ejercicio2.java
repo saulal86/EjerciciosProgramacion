@@ -1,5 +1,4 @@
 package ConceptosBasicos;
-
 public class Ejercicio2 {
     public static void main(String[] args) {
         double numerador = 1234.0;
