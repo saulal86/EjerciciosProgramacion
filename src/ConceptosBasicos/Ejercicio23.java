@@ -1,5 +1,4 @@
 package ConceptosBasicos;
-
 import java.util.Scanner;
 
 public class Ejercicio23 {
@@ -14,10 +13,8 @@ public class Ejercicio23 {
     }
 
     public static double[] transformacionCoordenadasPolares(double x, double y) {
-        // Calcula r y theta
         double r = Math.sqrt(x * x + y * y);
         double theta = Math.atan2(y, x);
-        // Almacena r y theta en un arreglo
         double[] coordenadasPolares = {r, theta};
         return coordenadasPolares;
     }
