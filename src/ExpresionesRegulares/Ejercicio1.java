@@ -13,7 +13,6 @@ public class Ejercicio1 {
     }
 
     public static void main(String[] args) {
-        Ejercicio1 e = new Ejercicio1();
         Scanner scanner = new Scanner(System.in);
         System.out.println("Introduce unas cadena de palabras separadas por comas: ");
         String palabras = scanner.nextLine();
