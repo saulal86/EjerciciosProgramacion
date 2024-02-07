@@ -3,7 +3,13 @@ package ExpresionesRegulares.Ejercicio3;
 public class Compra {
     private String mueble;
     private int cantidad;
-    private int precio;
+    private float precio;
+
+    public Compra(String mueble, int cantidad, float precio) {
+        this.mueble = mueble;
+        this.cantidad = cantidad;
+        this.precio = precio;
+    }
 
     public String getMueble() {
         return mueble;
@@ -21,7 +27,7 @@ public class Compra {
         this.cantidad = cantidad;
     }
 
-    public int getPrecio() {
+    public float getPrecio() {
         return precio;
     }
 
@@ -29,11 +35,7 @@ public class Compra {
         this.precio = precio;
     }
 
-    public Compra(String mueble, int cantidad, int precio) {
-        this.mueble = mueble;
-        this.cantidad = cantidad;
-        this.precio = precio;
-    }
+
 
     @Override
     public String toString() {
