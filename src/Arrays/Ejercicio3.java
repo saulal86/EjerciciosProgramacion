@@ -6,6 +6,7 @@ public class Ejercicio3 {
     int[] numeros;
 
     public void tamañoArray(int tamaño){
+
         numeros = new int[tamaño];
     }
     public float rellenarArray(){
